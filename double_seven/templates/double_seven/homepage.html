@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+{% load static %}
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #b0ff7b;">
+        <a class="navbar-brand font-weight-bold" href="{% static 'double_seven/us03.jpg' %}">七夕喔喔喔</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="{% static 'double_seven/ugly01.jpg' %}">點兒胖胖 <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% static 'double_seven/ugly02.jpg' %}">點兒肥肥</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% static 'double_seven/ugly03.jpg' %}">點兒豬豬</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                鼻要點人家
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">嗨</a>
+                <a class="dropdown-item" href="#">幹嘛</a>
+                <a class="dropdown-item" href="#">就叫你不要點</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">掰掰</a>
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="只有一頁搜尋個鬼" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+    </nav>
+    <div class="container-fluid my-4" id="title">
+        <div class="p-3 mb-2 bg-info text-white d-flex justify-content-center">
+            <h1>Happy Chinese Valentine's Day!!</h1>
+        </div>
+    </div>
+    
+    <div class="container-fluid d-flex justify-content-around mb-4">
+        <div class="row">
+          <div class="col-sm" id="fig01">
+            <img class="img-fluid" alt="Responsive image" src="{% static 'double_seven/lisa01.jpg' %}">
+          </div>
+          <div class="col-sm" id="fig02">
+            <img class="img-fluid" alt="Responsive image" src="{% static 'double_seven/us01.jpg' %}">
+            <h3 class="d-flex justify-content-around mt-5 font-weight-bolder text-success">
+                祝呆呆七夕情人節快樂河河
+                <br>
+                等妳禮拜四來請妳吃好吃的
+                <br>
+                一起繼續加油越來越有信心
+                <br>
+                生日的時候再把網站大升級
+                <br>
+                這個禮物很酷吧河河河河河
+                <br>
+                還不趕快誇獎我河河河河河
+                <br>
+                湊字數好多河河河河河河河
+
+            </h3>
+          </div>
+          <div class="col-sm" id="fig03">
+            <img class="img-fluid" alt="Responsive image" src="{% static 'double_seven/lisa02.jpg' %}">
+          </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="d-flex justify-content-center" id="title">
+            
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color: #85c9fa;">
+        <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-between">
+            <a class="navbar-brand" href="#">
+                <ion-icon class="align-middle" style="color: #22547c;" name="heart-circle-outline" size="large"></ion-icon>
+                <ion-icon class="align-middle" style="color: #22547c;" name="heart-circle-outline" size="large"></ion-icon>
+                <ion-icon class="align-middle" style="color: #22547c;" name="heart-circle-outline" size="large"></ion-icon>
+            </a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <h5 class="text-info font-weight-bolder" style="margin: 10px 30px;">20200825</h5>
+                </li>
+                <li class="nav-item">
+                    <h5 class="text-info font-weight-bolder" style="margin: 10px 30px;">Chinese Valentine's Day</h5>
+                </li>
+                <li class="nav-item">
+                    <h5 class="text-info font-weight-bolder" style="margin: 10px 30px;">給點兒</h5>
+                </li>
+            </ul>
+            <h5 class="text-info font-weight-bolder" style="margin: 10px 30px;">Producted by YuChenS</h5>
+            <h5 class="text-info font-weight-bolder" style="margin: 10px 30px;">Released under 點兒的可憐飯票 | Copyright @ 2020</h5>
+        </nav>
+    </div>
+    <script type="text/javascript" src="{% static 'double_seven/app.js' %}"></script>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+  </body>
